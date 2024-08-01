@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.frosted-glass {
+  background: rgba(255, 255, 255, 0.1); /* Semi transparent white */
+  backdrop-filter: blur(5px); /* Blur the background */
+  -webkit-backdrop-filter: blur(5px); /* For Safari */
+  border-radius: 10px; /* Optional: for rounded corners */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Semi transparent white border */
+}
+.admin-frosted{
+  background: rgba(0, 0, 255, 0.1); /* Semi transparent white */
+  backdrop-filter: blur(8px); /* Blur the background */
+  -webkit-backdrop-filter: blur(8px); /* For Safari */
+  border-radius: 10px; /* Optional: for rounded corners */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* Semi transparent white border */
+}
+.bg-img{
+  background-image: url('/images/salebg.png');
+  /* width: 100vw; */
+
+}
+.colorful-spots {
+  background: #1e429f; /* Blue background */
+  background-image: 
+    radial-gradient(circle at 100px 100px, #ff0000 20%, transparent 30%),
+    radial-gradient(circle at 200px 300px, #00ff00 20%, transparent 30%),
+    radial-gradient(circle at 300px 200px, #0000ff 20%, transparent 30%),
+    radial-gradient(circle at 400px 400px, #ff00ff 20%, transparent 30%);
+  background-size: 500px 500px;
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+.your-overlay-class {
+  position: fixed;  /* Fixed/sticky position */
+  top: 0;  /* Place the overlay at the top */
+  left: 0;  /* Place the overlay at the left */
+  width: 100%;  /* Full width */
+  height: 100%;  /* Full height */
+  
+}
+.height-96 {
+  height: 92%;
+}
+/* .home-sale-bg{
+  background-image: url('./images/salebg.png');
+} */
+svg#freepik_stories-shopping-bag:not(.animated) .animable {opacity: 0;}svg#freepik_stories-shopping-bag.animated #freepik--sunburst-effect--inject-3 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) zoomOut;animation-delay: 0s;}svg#freepik_stories-shopping-bag.animated #freepik--shopping-bags--inject-3 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) slideDown;animation-delay: 0s;}svg#freepik_stories-shopping-bag.animated #freepik--Tag--inject-3 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) zoomIn;animation-delay: 0s;}svg#freepik_stories-shopping-bag.animated #freepik--Stars--inject-3 {animation: 1s 1 forwards cubic-bezier(.36,-0.01,.5,1.38) fadeIn;animation-delay: 0s;}            @keyframes zoomOut {                0% {                    opacity: 0;                    transform: scale(1.5);                }                100% {                    opacity: 1;                    transform: scale(1);                }            }                    @keyframes slideDown {                0% {                    opacity: 0;                    transform: translateY(-30px);                }                100% {                    opacity: 1;                    transform: translateY(0);                }            }                    @keyframes zoomIn {                0% {                    opacity: 0;                    transform: scale(0.5);                }                100% {                    opacity: 1;                    transform: scale(1);                }            }                    @keyframes fadeIn {                0% {                    opacity: 0;                }                100% {                    opacity: 1;                }            } 
